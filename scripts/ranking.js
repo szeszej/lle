@@ -79,7 +79,7 @@ const players = [
     "zydelion": 3,
     "commander": [
       ["Brago, King Eternal", 2],
-      ["Urza, Lord High Artificer", 3]
+      ["Urza, Lord High Artificer", 5]
     ]
   },
   {
@@ -103,13 +103,13 @@ const players = [
   },
   {
     "name": "Paweł Ostrowski",
-    "zydelion": 10,
+    "zydelion": 11,
     "commander": [
-      ["Jace, Vryn's Prodigy // Jace, Telepath Unbound", 9],
-      ["Azusa, Lost but Seeking", 15],
+      ["Jace, Vryn's Prodigy // Jace, Telepath Unbound", 10],
+      ["Azusa, Lost but Seeking", 16],
       ["Breya, Etherium Shaper", 2],
       ["The Gitrog Monster", 1],
-      ["Alesha, Who Smiles at Death", 1],
+      ["Alesha, Who Smiles at Death", 2],
       [
         [
           ["Silas Renn, Seeker Adept"],
