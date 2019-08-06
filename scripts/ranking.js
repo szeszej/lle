@@ -52,10 +52,11 @@ const players = [
   },
   {
     "name": "Eryk Małecki",
-    "zydelion": 3,
+    "zydelion": 4,
     "commander": [
       ["Grand Arbiter Augustin IV", 1],
-      ["Anafenza, the Foremost", 3],
+      ["Anafenza, the Foremost", 4],
+      ["Niv-Mizzet, Parun", 1],
       ["Gaddock Teeg", 3]
     ]
   },
@@ -76,10 +77,10 @@ const players = [
   },
   {
     "name": "Jarosław Mroziński",
-    "zydelion": 3,
+    "zydelion": 4,
     "commander": [
       ["Brago, King Eternal", 2],
-      ["Urza, Lord High Artificer", 5]
+      ["Urza, Lord High Artificer", 7]
     ]
   },
   {
@@ -186,6 +187,14 @@ const players = [
     "zydelion": 1,
     "commander": [
       ["Aminatou, the Fateshifter", 2]
+    ]
+  },
+  {
+    "name": "Filip Wnukowski",
+    "zydelion": 1,
+    "commander": [
+      ["Firesong and Sunspeaker", 2],
+      ["The Scarab God", 1]
     ]
   }
 ];

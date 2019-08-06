@@ -37,4 +37,5 @@ var unparsedDecklist = `1 Azusa, Lost but Seeking *CMDR*
 1 Lost in the Woods
 1 Gaea's Touch
 1 Zendikar Resurgent
-62 Forest`;
+1 Zuran Orb
+61 Forest`;
