@@ -36,11 +36,12 @@ const players = [
   },
   {
     "name": "Krzysztof Brygała",
-    "zydelion": 3,
+    "zydelion": 4,
     "commander": [
       ["The Gitrog Monster", 1],
-      ["Rashmi, Eternities Crafter", 3],
-      ["Inalla, Archmage Ritualist", 2]
+      ["Rashmi, Eternities Crafter", 4],
+      ["Inalla, Archmage Ritualist", 2],
+      ["Vilis, Broker of Blood", 2]
     ]
   },
   {
@@ -175,11 +176,11 @@ const players = [
   },
   {
     "name": "Rafał Krygier",
-    "zydelion": 2,
+    "zydelion": 3,
     "commander": [
-      ["Prossh, Skyraider of Kher", 3],
-      ["Maelstrom Wanderer", 3],
-      ["Narset, Enlightened Master", 1]
+      ["Prossh, Skyraider of Kher", 4],
+      ["Maelstrom Wanderer", 4],
+      ["Narset, Enlightened Master", 2]
     ]
   },
   {
@@ -195,6 +196,27 @@ const players = [
     "commander": [
       ["Firesong and Sunspeaker", 2],
       ["The Scarab God", 1]
+    ]
+  },
+  {
+    "name": "Eliza Kołodziej",
+    "zydelion": 1,
+    "commander": [
+      ["Grand Arbiter Augustin IV", 2]
+    ]
+  },
+  {
+    "name": "Dawid Ciesielski",
+    "zydelion": 1,
+    "commander": [
+      ["Krenko, Tin Street Kingpin", 3],
+    ]
+  },
+  {
+    "name": "Marcin Gański",
+    "zydelion": 1,
+    "commander": [
+      ["Gahiji, Honored One", 3],
     ]
   }
 ];
@@ -245,7 +267,7 @@ function inflection(num) {
   } else if (num > 1 && num <= 4) {
     return ` wygrane mecze `;
   } else {
-    return ` wygranych meczów `;
+    return ` wygranych meczy `;
   }
 }
 
