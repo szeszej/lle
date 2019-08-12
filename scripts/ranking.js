@@ -176,18 +176,20 @@ const players = [
   },
   {
     "name": "Rafał Krygier",
-    "zydelion": 3,
+    "zydelion": 4,
     "commander": [
-      ["Prossh, Skyraider of Kher", 4],
-      ["Maelstrom Wanderer", 4],
-      ["Narset, Enlightened Master", 2]
+      ["Prossh, Skyraider of Kher", 5],
+      ["Maelstrom Wanderer", 5],
+      ["Narset, Enlightened Master", 2],
+      ["Chromium the Mutable", 1]
     ]
   },
   {
     "name": "Karol Esko",
-    "zydelion": 1,
+    "zydelion": 2,
     "commander": [
-      ["Aminatou, the Fateshifter", 2]
+      ["Aminatou, the Fateshifter", 3],
+      ["Teysa Karlov", 2]
     ]
   },
   {

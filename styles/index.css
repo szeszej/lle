@@ -259,6 +259,8 @@
       background-image: url("../resources/images/azusa lost but seeking.jpg"); }
     .decklists a #jace {
       background-image: url("../resources/images/jace vryn.jpg"); }
+    .decklists a #selvala {
+      background-image: url("../resources/images/selvala.jpg"); }
 
 #decklistbox {
   display: flex;
@@ -370,6 +372,9 @@ main #azusa {
 
 main #jace {
   background-image: url("../resources/images/jace vryn.jpg"); }
+
+main #selvala {
+  background-image: url("../resources/images/selvala.jpg"); }
 
 @media only screen and (max-width: 1140px) {
   main .decklisttitle .textindecklisttitle h1 {
