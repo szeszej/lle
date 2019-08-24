@@ -23,7 +23,7 @@ var unparsedDecklist = `1x Daretti, Scrap Savant *CMDR*
 1x Mindslaver
 1x Smoldering Crater
 1x Duplicant
-1x Ward of Bones
+1x Dockside Extortionist
 1x Phyrexia's Core
 1x Trash for Treasure
 1x Inventors' Fair

@@ -57,7 +57,7 @@ var unparsedDecklist = `1x Animate Dead
 1x Pain Magnification
 1x Path of Ancestry
 1x Pestilence
-1x Phyrexian Arena
+1x Pendant of Prosperity
 1x Phyrexian Scriptures
 1x Polluted Delta
 1x Pyrohemia
@@ -83,7 +83,7 @@ var unparsedDecklist = `1x Animate Dead
 1x Torment of Hailfire
 1x Tower of the Magistrate
 1x Toxic Deluge
-1x Treacherous Link
+1x Bloodthirsty Blade
 1x Urborg, Tomb of Yawgmoth
 1x Vampiric Tutor
 1x Vandalblast
