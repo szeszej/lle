@@ -11,12 +11,14 @@ const players = [
   },
   {
     "name": "Mateusz Kobielski",
-    "zydelion": 3,
+    "zydelion": 4,
     "commander": [
       ["Cromat", 4],
       ["Rafiq of the Many", 1],
       ["The Locust God", 1],
-      ["Atraxa, Praetors' Voice", 1]
+      ["Atraxa, Praetors' Voice", 2],
+      ["Palladia-Mors, the Ruiner", 1],
+      ["Titania, Protector of Argoth", 1]
     ]
   },
   {
@@ -53,12 +55,13 @@ const players = [
   },
   {
     "name": "Eryk Małecki",
-    "zydelion": 4,
+    "zydelion": 6,
     "commander": [
-      ["Grand Arbiter Augustin IV", 1],
-      ["Anafenza, the Foremost", 4],
-      ["Niv-Mizzet, Parun", 1],
-      ["Gaddock Teeg", 3]
+      ["Grand Arbiter Augustin IV", 7],
+      ["Anafenza, the Foremost", 6],
+      ["Niv-Mizzet, Parun", 2],
+      ["Gaddock Teeg", 3],
+      ["Mageta the Lion", 1]
     ]
   },
   {
@@ -78,10 +81,10 @@ const players = [
   },
   {
     "name": "Jarosław Mroziński",
-    "zydelion": 4,
+    "zydelion": 5,
     "commander": [
       ["Brago, King Eternal", 2],
-      ["Urza, Lord High Artificer", 7]
+      ["Urza, Lord High Artificer", 10]
     ]
   },
   {
@@ -105,13 +108,19 @@ const players = [
   },
   {
     "name": "Paweł Ostrowski",
-    "zydelion": 11,
+    "zydelion": 12,
     "commander": [
       ["Jace, Vryn's Prodigy // Jace, Telepath Unbound", 10],
-      ["Azusa, Lost but Seeking", 16],
+      ["Azusa, Lost but Seeking", 18],
       ["Breya, Etherium Shaper", 2],
       ["The Gitrog Monster", 1],
       ["Alesha, Who Smiles at Death", 2],
+      [
+        [
+          ["Tana, the Bloodsower"],
+          ["Tymna the Weaver"]
+        ], 1
+      ],
       [
         [
           ["Silas Renn, Seeker Adept"],
@@ -186,10 +195,11 @@ const players = [
   },
   {
     "name": "Karol Esko",
-    "zydelion": 2,
+    "zydelion": 3,
     "commander": [
       ["Aminatou, the Fateshifter", 3],
-      ["Teysa Karlov", 2]
+      ["Teysa Karlov", 2],
+      ["Feather, the Redeemed", 3]
     ]
   },
   {
@@ -269,7 +279,7 @@ function inflection(num) {
   } else if (num > 1 && num <= 4) {
     return ` wygrane mecze `;
   } else {
-    return ` wygranych meczy `;
+    return ` wygranych meczów `;
   }
 }
 
