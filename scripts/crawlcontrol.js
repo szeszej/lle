@@ -7,13 +7,15 @@ var animationWatch = function() {
   let header = document.querySelector("header"); //znajduje header
   let nav = document.querySelector("nav"); //znajduje nawigację
   let fade = document.querySelector(".fade"); //znajduje div, który "znika" animację
+  let swBox = document.querySelector(".star-wars"); //znajduje div, który "znika" animację
   let menuHeight = parseInt(window.getComputedStyle(header).height) + parseInt(window.getComputedStyle(nav).height) + parseInt(window.getComputedStyle(fade).height); //oblicza łączną wysokość elementów, żeby wyłączyć animację, kiedy jest poza obszarem widocznym
 
   skipButton.addEventListener("click", function() { //funkcja, która kończy tekst przewijany i wyświetla animację po przewinięciu, kiedy klikniemy na przycisk
-    swCrawl.style.display = "none";
     clearInterval(animationWatch);
-    fade.style.display = "none";
+    swBox.style.display = "none";
     skipButton.style.display = "none";
+    fade.style.display = "none";
+    afterCrawl.style.display = "flex";
     afterCrawl.style.animation = "show 2s ease-in 0s 1 normal forwards";
     showSlides(1);
   });
@@ -21,9 +23,11 @@ var animationWatch = function() {
   setInterval(function() { //funkcja która sprawdza co pewien czas, gdzie znajduje się (oś y) osatni paragraf w tekście przewijanym
     let crawlPosition = swCrawlEnd.getBoundingClientRect();
     if (crawlPosition.y < menuHeight - 50 && crawlPosition.y > 0) { //jeśli jest odpowiednio wysoko (poza obszarem widocznym), to włączamy animację po przewinięciu się tekstu i przestajemy liczyć
-      afterCrawl.style.animation = "show 2s ease-in 0s 1 normal forwards";
-      fade.style.display = "none";
+      swBox.style.display = "none";
       skipButton.style.display = "none";
+      fade.style.display = "none";
+      afterCrawl.style.display = "flex";
+      afterCrawl.style.animation = "show 2s ease-in 0s 1 normal forwards";
       clearInterval(animationWatch);
       showSlides(1);
     }
