@@ -2,23 +2,24 @@ const players = [
   // Tabela graczy
   {
     "name": "Bartosz Kłak", //imię
-    "zydelion": 7, //ilość wygranych dni
+    "zydelion": 8, //ilość wygranych dni
     "commander": [ //nazwa generała plus ilość wygranych gier danym generałem
       ["Riku of Two Reflections", 8],
-      ["Muldrotha, the Gravetide", 7],
-      ["Breya, Etherium Shaper", 6]
+      ["Muldrotha, the Gravetide", 8],
+      ["Breya, Etherium Shaper", 6],
+      ["Selvala, Explorer Returned", 1],
     ]
   },
   {
     "name": "Mateusz Kobielski",
-    "zydelion": 4,
+    "zydelion": 5,
     "commander": [
       ["Cromat", 4],
-      ["Rafiq of the Many", 1],
+      ["Rafiq of the Many", 2],
       ["The Locust God", 1],
       ["Atraxa, Praetors' Voice", 2],
-      ["Palladia-Mors, the Ruiner", 1],
-      ["Titania, Protector of Argoth", 1]
+      ["Palladia-Mors, the Ruiner", 3],
+      ["Titania, Protector of Argoth", 2]
     ]
   },
   {
@@ -185,12 +186,14 @@ const players = [
   },
   {
     "name": "Rafał Krygier",
-    "zydelion": 4,
+    "zydelion": 5,
     "commander": [
-      ["Prossh, Skyraider of Kher", 5],
-      ["Maelstrom Wanderer", 5],
+      ["Prossh, Skyraider of Kher", 6],
+      ["Maelstrom Wanderer", 6],
       ["Narset, Enlightened Master", 2],
-      ["Chromium the Mutable", 1]
+      ["Chromium the Mutable", 1],
+      ["Golos, Tireless Pilgrim", 1],
+      ["Zur the Enchanter", 1]
     ]
   },
   {
@@ -229,6 +232,13 @@ const players = [
     "zydelion": 1,
     "commander": [
       ["Gahiji, Honored One", 3],
+    ]
+  },
+  {
+    "name": "Paweł Górecki",
+    "zydelion": 1,
+    "commander": [
+      ["Sidisi, Brood Tyrant", 2]
     ]
   }
 ];

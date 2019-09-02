@@ -5,6 +5,7 @@ var unparsedDecklist = `1x Animate Dead
 1x Blasphemous Act
 1x Blood Crypt
 1x Bloodstained Mire
+1x Bloodthirsty Blade
 1x Bojuka Bog
 1x Braid of Fire
 1x Burning Sands
@@ -34,6 +35,7 @@ var unparsedDecklist = `1x Animate Dead
 1x Fumiko the Lowblood
 1x Gilded Lotus
 1x Goblin Spymaster
+1x Graven Cairns
 1x Gray Merchant of Asphodel
 1x Heartstone
 1x Hero's Downfall
@@ -56,8 +58,8 @@ var unparsedDecklist = `1x Animate Dead
 1x Ophiomancer
 1x Pain Magnification
 1x Path of Ancestry
-1x Pestilence
 1x Pendant of Prosperity
+1x Pestilence
 1x Phyrexian Scriptures
 1x Polluted Delta
 1x Pyrohemia
@@ -73,7 +75,7 @@ var unparsedDecklist = `1x Animate Dead
 1x Smoldering Marsh
 1x Sol Ring
 1x Solemn Simulacrum
-5x Swamp
+4x Swamp
 1x Talisman of Indulgence
 1x Tectonic Edge
 1x Temple of Malice
@@ -83,7 +85,6 @@ var unparsedDecklist = `1x Animate Dead
 1x Torment of Hailfire
 1x Tower of the Magistrate
 1x Toxic Deluge
-1x Bloodthirsty Blade
 1x Urborg, Tomb of Yawgmoth
 1x Vampiric Tutor
 1x Vandalblast
