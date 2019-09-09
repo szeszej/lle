@@ -12,14 +12,14 @@ const players = [
   },
   {
     "name": "Mateusz Kobielski",
-    "zydelion": 5,
+    "zydelion": 6,
     "commander": [
       ["Cromat", 4],
-      ["Rafiq of the Many", 2],
-      ["The Locust God", 1],
+      ["Rafiq of the Many", 3],
+      ["The Locust God", 2],
       ["Atraxa, Praetors' Voice", 2],
       ["Palladia-Mors, the Ruiner", 3],
-      ["Titania, Protector of Argoth", 2]
+      ["Titania, Protector of Argoth", 3]
     ]
   },
   {
@@ -56,13 +56,15 @@ const players = [
   },
   {
     "name": "Eryk Małecki",
-    "zydelion": 6,
+    "zydelion": 7,
     "commander": [
       ["Grand Arbiter Augustin IV", 7],
       ["Anafenza, the Foremost", 6],
       ["Niv-Mizzet, Parun", 2],
       ["Gaddock Teeg", 3],
-      ["Mageta the Lion", 1]
+      ["Mageta the Lion", 1],
+      ["Heartless Hidetsugu", 1],
+      ["Etali, Primal Storm", 2]
     ]
   },
   {
@@ -109,18 +111,19 @@ const players = [
   },
   {
     "name": "Paweł Ostrowski",
-    "zydelion": 12,
+    "zydelion": 13,
     "commander": [
       ["Jace, Vryn's Prodigy // Jace, Telepath Unbound", 10],
-      ["Azusa, Lost but Seeking", 18],
+      ["Azusa, Lost but Seeking", 19],
       ["Breya, Etherium Shaper", 2],
       ["The Gitrog Monster", 1],
       ["Alesha, Who Smiles at Death", 2],
+      ["Jarad, Golgari Lich Lord", 1],
       [
         [
           ["Tana, the Bloodsower"],
           ["Tymna the Weaver"]
-        ], 1
+        ], 2
       ],
       [
         [
@@ -222,9 +225,12 @@ const players = [
   },
   {
     "name": "Dawid Ciesielski",
-    "zydelion": 1,
+    "zydelion": 2,
     "commander": [
       ["Krenko, Tin Street Kingpin", 3],
+      ["Selvala, Heart of the Wilds", 2],
+      ["Animar, Soul of Elements", 5],
+      ["Golos, Tireless Pilgrim", 1],
     ]
   },
   {
@@ -239,6 +245,13 @@ const players = [
     "zydelion": 1,
     "commander": [
       ["Sidisi, Brood Tyrant", 2]
+    ]
+  },
+  {
+    "name": "Arkadiusz Podmokły ",
+    "zydelion": 1,
+    "commander": [
+      ["Meren of Clan Nel Toth", 2],
     ]
   }
 ];
