@@ -2,24 +2,27 @@ const players = [
   // Tabela graczy
   {
     "name": "Bartosz Kłak", //imię
-    "zydelion": 8, //ilość wygranych dni
+    "zydelion": 9, //ilość wygranych dni
     "commander": [ //nazwa generała plus ilość wygranych gier danym generałem
       ["Riku of Two Reflections", 8],
-      ["Muldrotha, the Gravetide", 8],
+      ["Muldrotha, the Gravetide", 12],
       ["Breya, Etherium Shaper", 6],
       ["Selvala, Explorer Returned", 1],
     ]
   },
   {
     "name": "Mateusz Kobielski",
-    "zydelion": 6,
+    "zydelion": 8,
     "commander": [
       ["Cromat", 4],
       ["Rafiq of the Many", 3],
       ["The Locust God", 2],
-      ["Atraxa, Praetors' Voice", 2],
+      ["Atraxa, Praetors' Voice", 4],
       ["Palladia-Mors, the Ruiner", 3],
-      ["Titania, Protector of Argoth", 3]
+      ["Titania, Protector of Argoth", 3],
+      ["Ayli, Eternal Pilgrim", 1],
+      ["Nikya of the Old Ways", 1],
+      ["Wasitora, Nekoru Queen", 1]
     ]
   },
   {
@@ -39,12 +42,13 @@ const players = [
   },
   {
     "name": "Krzysztof Brygała",
-    "zydelion": 4,
+    "zydelion": 5,
     "commander": [
       ["The Gitrog Monster", 1],
-      ["Rashmi, Eternities Crafter", 4],
+      ["Rashmi, Eternities Crafter", 5],
       ["Inalla, Archmage Ritualist", 2],
-      ["Vilis, Broker of Blood", 2]
+      ["Vilis, Broker of Blood", 3],
+      ["Muldrotha, the Gravetide", 1],
     ]
   },
   {
@@ -56,15 +60,16 @@ const players = [
   },
   {
     "name": "Eryk Małecki",
-    "zydelion": 7,
+    "zydelion": 9,
     "commander": [
       ["Grand Arbiter Augustin IV", 7],
-      ["Anafenza, the Foremost", 6],
+      ["Anafenza, the Foremost", 9],
       ["Niv-Mizzet, Parun", 2],
       ["Gaddock Teeg", 3],
       ["Mageta the Lion", 1],
       ["Heartless Hidetsugu", 1],
-      ["Etali, Primal Storm", 2]
+      ["Etali, Primal Storm", 2],
+      ["Sisay, Weatherlight Captain", 2]
     ]
   },
   {
@@ -181,31 +186,35 @@ const players = [
   },
   {
     "name": "Krzysztof Ciesielka",
-    "zydelion": 3,
+    "zydelion": 4,
     "commander": [
       ["Daretti, Scrap Savant", 5],
-      ["The Ur-Dragon", 1]
+      ["The Ur-Dragon", 1],
+      ["Kadena, Slinking Sorcerer", 1],
+      ["Niv-Mizzet Reborn", 1]
     ]
   },
   {
     "name": "Rafał Krygier",
-    "zydelion": 5,
+    "zydelion": 6,
     "commander": [
       ["Prossh, Skyraider of Kher", 6],
-      ["Maelstrom Wanderer", 6],
+      ["Maelstrom Wanderer", 8],
       ["Narset, Enlightened Master", 2],
-      ["Chromium the Mutable", 1],
-      ["Golos, Tireless Pilgrim", 1],
-      ["Zur the Enchanter", 1]
+      ["Chromium, the Mutable", 1],
+      ["Golos, Tireless Pilgrim", 2],
+      ["Zur the Enchanter", 2]
     ]
   },
   {
     "name": "Karol Esko",
-    "zydelion": 3,
+    "zydelion": 5,
     "commander": [
-      ["Aminatou, the Fateshifter", 3],
+      ["Aminatou, the Fateshifter", 4],
       ["Teysa Karlov", 2],
-      ["Feather, the Redeemed", 3]
+      ["Jalira, Master Polymorphist", 1],
+      ["Feather, the Redeemed", 4],
+      ["Elsha of the Infinite", 2]
     ]
   },
   {
@@ -225,19 +234,20 @@ const players = [
   },
   {
     "name": "Dawid Ciesielski",
-    "zydelion": 2,
+    "zydelion": 3,
     "commander": [
       ["Krenko, Tin Street Kingpin", 3],
-      ["Selvala, Heart of the Wilds", 2],
+      ["Selvala, Heart of the Wilds", 4],
       ["Animar, Soul of Elements", 5],
       ["Golos, Tireless Pilgrim", 1],
+      ["Kenrith, the Returned King", 1]
     ]
   },
   {
     "name": "Marcin Gański",
-    "zydelion": 1,
+    "zydelion": 2,
     "commander": [
-      ["Gahiji, Honored One", 3],
+      ["Gahiji, Honored One", 5],
     ]
   },
   {
@@ -252,6 +262,21 @@ const players = [
     "zydelion": 1,
     "commander": [
       ["Meren of Clan Nel Toth", 2],
+    ]
+  },
+  {
+    "name": "Mateusz Pawluk",
+    "zydelion": 1,
+    "commander": [
+      ["Ghired, Conclave Exile", 2]
+    ]
+  },
+  {
+    "name": "Bartek Rzucidło",
+    "zydelion": 1,
+    "commander": [
+      ["Atla Palani, Nest Tender ", 2],
+      ["The Scarab God", 1]
     ]
   }
 ];
