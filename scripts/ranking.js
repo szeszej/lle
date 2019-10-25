@@ -173,7 +173,7 @@ const players = [
     "name": "Jakub Szyszko",
     "zydelion": 1,
     "commander": [
-      ["Slimefoot, the Stowaway", 2]
+      ["Thelon of Havenwood", 2]
     ]
   },
   {
@@ -208,13 +208,13 @@ const players = [
   },
   {
     "name": "Karol Esko",
-    "zydelion": 5,
+    "zydelion": 6,
     "commander": [
-      ["Aminatou, the Fateshifter", 4],
+      ["Aminatou, the Fateshifter", 5],
       ["Teysa Karlov", 2],
       ["Jalira, Master Polymorphist", 1],
       ["Feather, the Redeemed", 4],
-      ["Elsha of the Infinite", 2]
+      ["Elsha of the Infinite", 3]
     ]
   },
   {
@@ -227,20 +227,22 @@ const players = [
   },
   {
     "name": "Eliza Kołodziej",
-    "zydelion": 1,
+    "zydelion": 2,
     "commander": [
-      ["Grand Arbiter Augustin IV", 2]
+      ["Grand Arbiter Augustin IV", 2],
+      ["Jeleva, Nephalia's Scourge", 3]
     ]
   },
   {
     "name": "Dawid Ciesielski",
-    "zydelion": 3,
+    "zydelion": 4,
     "commander": [
       ["Krenko, Tin Street Kingpin", 3],
-      ["Selvala, Heart of the Wilds", 4],
+      ["Selvala, Heart of the Wilds", 5],
       ["Animar, Soul of Elements", 5],
       ["Golos, Tireless Pilgrim", 1],
-      ["Kenrith, the Returned King", 1]
+      ["Kenrith, the Returned King", 1],
+      ["Alesha, Who Smiles at Death", 1],
     ]
   },
   {
@@ -259,9 +261,10 @@ const players = [
   },
   {
     "name": "Arkadiusz Podmokły ",
-    "zydelion": 1,
+    "zydelion": 2,
     "commander": [
-      ["Meren of Clan Nel Toth", 2],
+      ["Meren of Clan Nel Toth", 3],
+      ["Sliver Overlord", 1]
     ]
   },
   {
@@ -277,6 +280,14 @@ const players = [
     "commander": [
       ["Atla Palani, Nest Tender ", 2],
       ["The Scarab God", 1]
+    ]
+  },
+  {
+    "name": "Artur Sołtan",
+    "zydelion": 1,
+    "commander": [
+      ["Kadena, Slinking Sorcerer ", 1],
+      ["Yawgmoth, Thran Physician", 1]
     ]
   }
 ];
