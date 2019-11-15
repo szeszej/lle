@@ -27,7 +27,7 @@ const players = [
   },
   {
     "name": "Waldemar Piekarz",
-    "zydelion": 5,
+    "zydelion": 6,
     "commander": [
       [
         [
@@ -37,18 +37,22 @@ const players = [
       ], //podwójny generał
       ["Lord Windgrace", 3],
       ["Inalla, Archmage Ritualist", 3],
-      ["Ayula, Queen Among Bears", 3]
+      ["Ayula, Queen Among Bears", 3],
+      ["Gwafa Hazid, Profiteer", 1],
+      ["Daxos of Meletis", 1]
+
     ]
   },
   {
     "name": "Krzysztof Brygała",
-    "zydelion": 5,
+    "zydelion": 6,
     "commander": [
       ["The Gitrog Monster", 1],
       ["Rashmi, Eternities Crafter", 5],
       ["Inalla, Archmage Ritualist", 2],
-      ["Vilis, Broker of Blood", 3],
+      ["Vilis, Broker of Blood", 4],
       ["Muldrotha, the Gravetide", 1],
+      ["Yeva, Nature's Herald", 1],
     ]
   },
   {
@@ -156,10 +160,11 @@ const players = [
   },
   {
     "name": "Dawid Czajkowski",
-    "zydelion": 1,
+    "zydelion": 2,
     "commander": [
       ["Jhoira of the Ghitu", 1],
-      ["Tasigur, the Golden Fang", 1]
+      ["Tasigur, the Golden Fang", 1],
+      ["Lavinia, Azorius Renegade", 1]
     ]
   },
   {
@@ -186,12 +191,13 @@ const players = [
   },
   {
     "name": "Krzysztof Ciesielka",
-    "zydelion": 4,
+    "zydelion": 7,
     "commander": [
       ["Daretti, Scrap Savant", 5],
       ["The Ur-Dragon", 1],
-      ["Kadena, Slinking Sorcerer", 1],
-      ["Niv-Mizzet Reborn", 1]
+      ["Kadena, Slinking Sorcerer", 2],
+      ["Niv-Mizzet Reborn", 2],
+      ["Xantcha, Sleeper Agent", 1]
     ]
   },
   {
@@ -208,13 +214,13 @@ const players = [
   },
   {
     "name": "Karol Esko",
-    "zydelion": 6,
+    "zydelion": 7,
     "commander": [
       ["Aminatou, the Fateshifter", 5],
-      ["Teysa Karlov", 2],
+      ["Teysa Karlov", 3],
       ["Jalira, Master Polymorphist", 1],
       ["Feather, the Redeemed", 4],
-      ["Elsha of the Infinite", 3]
+      ["Elsha of the Infinite", 4]
     ]
   },
   {
@@ -247,9 +253,10 @@ const players = [
   },
   {
     "name": "Marcin Gański",
-    "zydelion": 2,
+    "zydelion": 3,
     "commander": [
       ["Gahiji, Honored One", 5],
+      ["Jodah, Archmage Eternal", 1],
     ]
   },
   {
