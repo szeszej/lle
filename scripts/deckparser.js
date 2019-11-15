@@ -41,6 +41,7 @@ function Card(name, quantity, commander) {
   this.commander = commander;
 }
 Card.prototype.multiverseId = "unavailable";
+Card.prototype.image = "unavailable";
 
 var parsedDecklist = parseDecklist(unparsedDecklist);
 
@@ -129,15 +130,20 @@ function updateDeckData(listOfCards, returnedCards) { //funkcja która dodaje w�
           card.multiverseId = returnedCard.multiverse_ids[0];
         }
         card.cmc = returnedCard.cmc; // pobieramy converted mana cost
-        if (returnedCard.hasOwnProperty("colors") == true) {
+        if (returnedCard.hasOwnProperty("colors")) {
           card.colors = returnedCard.colors; //pobieramy kolory
-        } else if (returnedCard.hasOwnProperty("card_faces") == true) { //czasami karta ma dwie połówki albo drugą stronę - wtedy chcemy dane pierwszej
+        } else if (returnedCard.hasOwnProperty("card_faces")) { //czasami karta ma dwie połówki albo drugą stronę - wtedy chcemy dane pierwszej
           card.colors = returnedCard.card_faces[0].colors;
         };
-        if (returnedCard.hasOwnProperty("card_faces") == true) { //czasami karta ma dwie połówki albo drugą stronę - wtedy chcemy dane pierwszej
+        if (returnedCard.hasOwnProperty("card_faces")) { //czasami karta ma dwie połówki albo drugą stronę - wtedy chcemy dane pierwszej
           card.type = returnedCard.card_faces[0].type_line;
         } else {
           card.type = returnedCard.type_line; //pobieramy typy
+        };
+        if (returnedCard.hasOwnProperty("image_uris")) { //jeśli karta ma obrazek to pobieramy do niego link
+          card.image = returnedCard.image_uris.normal;
+        } else if (returnedCard.hasOwnProperty("card_faces")) {
+          card.image = returnedCard.card_faces[0].image_uris.normal;
         };
         if (card.commander == true) {
           card.identity = returnedCard.color_identity;
@@ -438,13 +444,23 @@ function checkMultiverseId(cardName, listOfCards) { //funkcja, która sprawdza m
   return multiverseId;
 };
 
+function checkImage(cardName, listOfCards) { //funkcja, która sprawdza obrazek danej karty
+  let image = "";
+  listOfCards.forEach(function(item) {
+    if (item.name == cardName) {
+      image = item.image;
+    }
+  });
+  return image;
+};
+
 function getCardImage(cardLink, cardName, listOfCards) { //funkcja, która tworzy divy z podglądem kart po najechaniu na nie i usuwa je po odjechaniu z nich :)
   let wrapperSidebar = document.querySelector(".wrappersidebar"); //znajdujemy wrapper do dodawania podglądu kart
   let cardPreview = document.createElement("div");
-  let multiverseId = checkMultiverseId(cardName, listOfCards);
+  let image = checkImage(cardName, listOfCards);
   cardPreview.setAttribute("class", "cardpreview");
-  if (multiverseId != "unavailable") {
-    cardPreview.innerHTML = `<img src="http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=` + multiverseId + `&type=card">`;
+  if (image != "unavailable") {
+    cardPreview.innerHTML = `<img src="` + image + `">`;
   } else {
     cardPreview.innerHTML = `<p>Podgląd chwilowo niedostępny. Spróbuj odświeżyć stronę.</p>`;
     cardPreview.style.border = "1px solid #ffe919";

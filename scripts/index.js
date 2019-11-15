@@ -117,15 +117,30 @@ function checkMultiverseId(cardName, cardsFromApi) { //funkcja, która sprawdza 
   return multiverseId;
 };
 
+function checkImage(cardName, listOfCards) { //funkcja, która sprawdza obrazek danej karty
+  let image = "";
+  listOfCards.forEach(function(item) {
+    if (item.name == cardName) {
+      if (item.hasOwnProperty("image_uris")) { //jeśli karta ma obrazek to pobieramy do niego link
+        image = item.image_uris.normal;
+      } else if (item.hasOwnProperty("card_faces")) {
+        image = item.card_faces[0].image_uris.normal;
+      };
+    }
+  });
+  return image;
+};
+
 function getCardImage(cardLink, cardName, cardsFromApi) { //funkcja, która tworzy divy z podglądem kart po najechaniu na nie i usuwa je po odjechaniu z nich :)
   let returnedCards = [...cardsFromApi];
   let ranking = document.querySelector("#ranklist"); //znajdujemy ranking
   let wrapperSidebar = document.querySelector(".wrappersidebar"); //znajdujemy wrapper do dodawania podglądu kart
   let cardPreview = document.createElement("div");
   let multiverseId = checkMultiverseId(cardName, returnedCards);
+  let image = checkImage(cardName, returnedCards);
   cardPreview.setAttribute("class", "cardpreview");
-  if (multiverseId != "") {
-    cardPreview.innerHTML = `<img src="http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=` + multiverseId + `&type=card">`;
+  if (image != "") {
+    cardPreview.innerHTML = `<img src="` + image + `">`;
   } else {
     cardPreview.innerHTML = `<p>Podgląd chwilowo niedostępny. Spróbuj odświeżyć stronę.</p>`;
     cardPreview.style.border = "1px solid #ffe919";
