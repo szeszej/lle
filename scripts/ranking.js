@@ -12,22 +12,23 @@ const players = [
   },
   {
     "name": "Mateusz Kobielski",
-    "zydelion": 8,
+    "zydelion": 9,
     "commander": [
       ["Cromat", 4],
       ["Rafiq of the Many", 3],
       ["The Locust God", 2],
-      ["Atraxa, Praetors' Voice", 4],
+      ["Atraxa, Praetors' Voice", 5],
       ["Palladia-Mors, the Ruiner", 3],
       ["Titania, Protector of Argoth", 3],
       ["Ayli, Eternal Pilgrim", 1],
       ["Nikya of the Old Ways", 1],
-      ["Wasitora, Nekoru Queen", 1]
+      ["Wasitora, Nekoru Queen", 1],
+      ["The Ur-Dragon", 1],
     ]
   },
   {
     "name": "Waldemar Piekarz",
-    "zydelion": 6,
+    "zydelion": 7,
     "commander": [
       [
         [
@@ -38,7 +39,7 @@ const players = [
       ["Lord Windgrace", 3],
       ["Inalla, Archmage Ritualist", 3],
       ["Ayula, Queen Among Bears", 3],
-      ["Gwafa Hazid, Profiteer", 1],
+      ["Gwafa Hazid, Profiteer", 2],
       ["Daxos of Meletis", 1]
 
     ]
@@ -64,10 +65,10 @@ const players = [
   },
   {
     "name": "Eryk Małecki",
-    "zydelion": 9,
+    "zydelion": 11,
     "commander": [
       ["Grand Arbiter Augustin IV", 7],
-      ["Anafenza, the Foremost", 9],
+      ["Anafenza, the Foremost", 13],
       ["Niv-Mizzet, Parun", 2],
       ["Gaddock Teeg", 3],
       ["Mageta the Lion", 1],
@@ -214,13 +215,14 @@ const players = [
   },
   {
     "name": "Karol Esko",
-    "zydelion": 7,
+    "zydelion": 8,
     "commander": [
       ["Aminatou, the Fateshifter", 5],
-      ["Teysa Karlov", 3],
+      ["Teysa Karlov", 4],
       ["Jalira, Master Polymorphist", 1],
-      ["Feather, the Redeemed", 4],
-      ["Elsha of the Infinite", 4]
+      ["Feather, the Redeemed", 5],
+      ["Elsha of the Infinite", 4],
+      ["Jeleva, Nephalia's Scourge", 2]
     ]
   },
   {
@@ -241,22 +243,26 @@ const players = [
   },
   {
     "name": "Dawid Ciesielski",
-    "zydelion": 4,
+    "zydelion": 6,
     "commander": [
       ["Krenko, Tin Street Kingpin", 3],
-      ["Selvala, Heart of the Wilds", 5],
+      ["Selvala, Heart of the Wilds", 6],
       ["Animar, Soul of Elements", 5],
       ["Golos, Tireless Pilgrim", 1],
       ["Kenrith, the Returned King", 1],
       ["Alesha, Who Smiles at Death", 1],
+      ["Nekusar, the Mindrazer", 1],
+      ["Chulane, Teller of Tales", 1]
+      ["Muldrotha, the Gravetide", 1]
     ]
   },
   {
     "name": "Marcin Gański",
-    "zydelion": 3,
+    "zydelion": 5,
     "commander": [
       ["Gahiji, Honored One", 5],
       ["Jodah, Archmage Eternal", 1],
+      ["Grumgully, the Generous", 4],
     ]
   },
   {
@@ -295,6 +301,13 @@ const players = [
     "commander": [
       ["Kadena, Slinking Sorcerer ", 1],
       ["Yawgmoth, Thran Physician", 1]
+    ]
+  }, {
+    "name": "Michał Ożgo",
+    "zydelion": 1,
+    "commander": [
+      ["Sliver Overlord", 1],
+      ["Thada Adel, Acquisitor", 1]
     ]
   }
 ];
