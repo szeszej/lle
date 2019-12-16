@@ -65,7 +65,7 @@ const players = [
   },
   {
     "name": "Eryk Małecki",
-    "zydelion": 11,
+    "zydelion": 12,
     "commander": [
       ["Grand Arbiter Augustin IV", 7],
       ["Anafenza, the Foremost", 13],
@@ -74,7 +74,9 @@ const players = [
       ["Mageta the Lion", 1],
       ["Heartless Hidetsugu", 1],
       ["Etali, Primal Storm", 2],
-      ["Sisay, Weatherlight Captain", 2]
+      ["Sisay, Weatherlight Captain", 2],
+      ["Adriana, Captain of the Guard", 1],
+      ["Zur the enchanter", 1],
     ]
   },
   {
@@ -192,12 +194,12 @@ const players = [
   },
   {
     "name": "Krzysztof Ciesielka",
-    "zydelion": 7,
+    "zydelion": 8,
     "commander": [
       ["Daretti, Scrap Savant", 5],
       ["The Ur-Dragon", 1],
-      ["Kadena, Slinking Sorcerer", 2],
-      ["Niv-Mizzet Reborn", 2],
+      ["Kadena, Slinking Sorcerer", 3],
+      ["Niv-Mizzet Reborn", 4],
       ["Xantcha, Sleeper Agent", 1]
     ]
   },
@@ -215,9 +217,9 @@ const players = [
   },
   {
     "name": "Karol Esko",
-    "zydelion": 8,
+    "zydelion": 9,
     "commander": [
-      ["Aminatou, the Fateshifter", 5],
+      ["Aminatou, the Fateshifter", 8],
       ["Teysa Karlov", 4],
       ["Jalira, Master Polymorphist", 1],
       ["Feather, the Redeemed", 5],
@@ -235,10 +237,10 @@ const players = [
   },
   {
     "name": "Eliza Kołodziej",
-    "zydelion": 2,
+    "zydelion": 3,
     "commander": [
       ["Grand Arbiter Augustin IV", 2],
-      ["Jeleva, Nephalia's Scourge", 3]
+      ["Jeleva, Nephalia's Scourge", 5]
     ]
   },
   {
@@ -258,11 +260,11 @@ const players = [
   },
   {
     "name": "Marcin Gański",
-    "zydelion": 5,
+    "zydelion": 6,
     "commander": [
       ["Gahiji, Honored One", 5],
       ["Jodah, Archmage Eternal", 1],
-      ["Grumgully, the Generous", 4],
+      ["Grumgully, the Generous", 7],
     ]
   },
   {
