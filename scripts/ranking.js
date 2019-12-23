@@ -76,7 +76,7 @@ const players = [
       ["Etali, Primal Storm", 2],
       ["Sisay, Weatherlight Captain", 2],
       ["Adriana, Captain of the Guard", 1],
-      ["Zur the enchanter", 1],
+      ["Zur the Enchanter", 1],
     ]
   },
   {
@@ -194,13 +194,14 @@ const players = [
   },
   {
     "name": "Krzysztof Ciesielka",
-    "zydelion": 8,
+    "zydelion": 9,
     "commander": [
       ["Daretti, Scrap Savant", 5],
       ["The Ur-Dragon", 1],
       ["Kadena, Slinking Sorcerer", 3],
       ["Niv-Mizzet Reborn", 4],
-      ["Xantcha, Sleeper Agent", 1]
+      ["Xantcha, Sleeper Agent", 1],
+      ["Yuriko, the Tiger's Shadow", 3]
     ]
   },
   {
@@ -260,11 +261,11 @@ const players = [
   },
   {
     "name": "Marcin Gański",
-    "zydelion": 6,
+    "zydelion": 8,
     "commander": [
       ["Gahiji, Honored One", 5],
       ["Jodah, Archmage Eternal", 1],
-      ["Grumgully, the Generous", 7],
+      ["Grumgully, the Generous", 12],
     ]
   },
   {
@@ -304,12 +305,20 @@ const players = [
       ["Kadena, Slinking Sorcerer ", 1],
       ["Yawgmoth, Thran Physician", 1]
     ]
-  }, {
+  },
+  {
     "name": "Michał Ożgo",
     "zydelion": 1,
     "commander": [
       ["Sliver Overlord", 1],
       ["Thada Adel, Acquisitor", 1]
+    ]
+  },
+  {
+    "name": "Angelika Harasymiuk ",
+    "zydelion": 1,
+    "commander": [
+      ["Meren of Clan Nel Toth", 2]
     ]
   }
 ];
