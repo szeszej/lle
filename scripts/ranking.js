@@ -1,6 +1,60 @@
 const players = [
   {
     "name": "Eryk Małecki",
+<<<<<<< HEAD
+=======
+    "zydelion": 12,
+    "commander": [
+      ["Grand Arbiter Augustin IV", 7],
+      ["Anafenza, the Foremost", 13],
+      ["Niv-Mizzet, Parun", 2],
+      ["Gaddock Teeg", 3],
+      ["Mageta the Lion", 1],
+      ["Heartless Hidetsugu", 1],
+      ["Etali, Primal Storm", 2],
+      ["Sisay, Weatherlight Captain", 2],
+      ["Adriana, Captain of the Guard", 1],
+      ["Zur the Enchanter", 1],
+    ]
+  },
+  {
+    "name": "Jakub Grela",
+    "zydelion": 3,
+    "commander": [
+      ["Derevi, Empyrial Tactician", 6],
+      ["Raff Capashen, Ship's Mage", 2]
+    ]
+  },
+  {
+    "name": "Krzysztof Guz",
+    "zydelion": 1,
+    "commander": [
+      ["Karlov of the Ghost Council", 3]
+    ]
+  },
+  {
+    "name": "Jarosław Mroziński",
+    "zydelion": 5,
+    "commander": [
+      ["Brago, King Eternal", 2],
+      ["Urza, Lord High Artificer", 10]
+    ]
+  },
+  {
+    "name": "Michał Kowalczyk",
+    "zydelion": 3,
+    "commander": [
+      [
+        [
+          ["Thrasios, Triton Hero"],
+          ["Tymna the Weaver"]
+        ], 10
+      ]
+    ]
+  },
+  {
+    "name": "Dominik Kuszneruk",
+>>>>>>> bfdfa0afb1f97b21ade35c8ae6e00f3427456617
     "zydelion": 1,
     "commander": [
       ["Zur the Enchanter", 1]
@@ -14,7 +68,69 @@ const players = [
     ]
   },
   {
+<<<<<<< HEAD
     "name": "Waldemar Piekarz",
+=======
+    "name": "Bartosz Dekański",
+    "zydelion": 1,
+    "commander": [
+      ["Niv-Mizzet, Parun", 3]
+    ]
+  },
+  {
+    "name": "Jakub Szyszko",
+    "zydelion": 1,
+    "commander": [
+      ["Thelon of Havenwood", 2]
+    ]
+  },
+  {
+    "name": "Łukasz Cieniawa",
+    "zydelion": 1,
+    "commander": [
+      ["Inalla, Archmage Ritualist", 1],
+      ["Feather, the Redeemed", 1]
+    ]
+  },
+  {
+    "name": "Krzysztof Ciesielka",
+    "zydelion": 9,
+    "commander": [
+      ["Daretti, Scrap Savant", 5],
+      ["The Ur-Dragon", 1],
+      ["Kadena, Slinking Sorcerer", 3],
+      ["Niv-Mizzet Reborn", 4],
+      ["Xantcha, Sleeper Agent", 1],
+      ["Yuriko, the Tiger's Shadow", 3]
+    ]
+  },
+  {
+    "name": "Rafał Krygier",
+    "zydelion": 6,
+    "commander": [
+      ["Prossh, Skyraider of Kher", 6],
+      ["Maelstrom Wanderer", 8],
+      ["Narset, Enlightened Master", 2],
+      ["Chromium, the Mutable", 1],
+      ["Golos, Tireless Pilgrim", 2],
+      ["Zur the Enchanter", 2]
+    ]
+  },
+  {
+    "name": "Karol Esko",
+    "zydelion": 9,
+    "commander": [
+      ["Aminatou, the Fateshifter", 8],
+      ["Teysa Karlov", 4],
+      ["Jalira, Master Polymorphist", 1],
+      ["Feather, the Redeemed", 5],
+      ["Elsha of the Infinite", 4],
+      ["Jeleva, Nephalia's Scourge", 2]
+    ]
+  },
+  {
+    "name": "Filip Wnukowski",
+>>>>>>> bfdfa0afb1f97b21ade35c8ae6e00f3427456617
     "zydelion": 1,
     "commander": [
       ["Chulane, Teller of Tales", 2],
@@ -29,7 +145,20 @@ const players = [
     ]
   },
   {
+<<<<<<< HEAD
     "name": "Karol Esko",
+=======
+    "name": "Marcin Gański",
+    "zydelion": 8,
+    "commander": [
+      ["Gahiji, Honored One", 5],
+      ["Jodah, Archmage Eternal", 1],
+      ["Grumgully, the Generous", 12],
+    ]
+  },
+  {
+    "name": "Paweł Górecki",
+>>>>>>> bfdfa0afb1f97b21ade35c8ae6e00f3427456617
     "zydelion": 1,
     "commander": [
       ["Aminatou, the Fateshifter", 4],
@@ -50,329 +179,31 @@ const players = [
     ]
   },
   {
+<<<<<<< HEAD
+=======
+    "name": "Artur Sołtan",
+    "zydelion": 1,
+    "commander": [
+      ["Kadena, Slinking Sorcerer ", 1],
+      ["Yawgmoth, Thran Physician", 1]
+    ]
+  },
+  {
+>>>>>>> bfdfa0afb1f97b21ade35c8ae6e00f3427456617
     "name": "Michał Ożgo",
     "zydelion": 1,
     "commander": [
       ["Thada Adel, Acquisitor", 2]
     ]
+  },
+  {
+    "name": "Angelika Harasymiuk ",
+    "zydelion": 1,
+    "commander": [
+      ["Meren of Clan Nel Toth", 2]
+    ]
   }
 ];
-
-// const players = [
-//   // Tabela graczy
-//   {
-//     "name": "Bartosz Kłak", //imię
-//     "zydelion": 9, //ilość wygranych dni
-//     "commander": [ //nazwa generała plus ilość wygranych gier danym generałem
-//       ["Riku of Two Reflections", 8],
-//       ["Muldrotha, the Gravetide", 12],
-//       ["Breya, Etherium Shaper", 6],
-//       ["Selvala, Explorer Returned", 1],
-//     ]
-//   },
-//   {
-//     "name": "Mateusz Kobielski",
-//     "zydelion": 9,
-//     "commander": [
-//       ["Cromat", 4],
-//       ["Rafiq of the Many", 3],
-//       ["The Locust God", 2],
-//       ["Atraxa, Praetors' Voice", 5],
-//       ["Palladia-Mors, the Ruiner", 3],
-//       ["Titania, Protector of Argoth", 3],
-//       ["Ayli, Eternal Pilgrim", 1],
-//       ["Nikya of the Old Ways", 1],
-//       ["Wasitora, Nekoru Queen", 1],
-//       ["The Ur-Dragon", 1],
-//     ]
-//   },
-//   {
-//     "name": "Waldemar Piekarz",
-//     "zydelion": 7,
-//     "commander": [
-//       [
-//         [
-//           ["Thrasios, Triton Hero"],
-//           ["Ikra Shidiqi, the Usurper"]
-//         ], 5
-//       ], //podwójny generał
-//       ["Lord Windgrace", 3],
-//       ["Inalla, Archmage Ritualist", 3],
-//       ["Ayula, Queen Among Bears", 3],
-//       ["Gwafa Hazid, Profiteer", 2],
-//       ["Daxos of Meletis", 1]
-//
-//     ]
-//   },
-//   {
-//     "name": "Krzysztof Brygała",
-//     "zydelion": 6,
-//     "commander": [
-//       ["The Gitrog Monster", 1],
-//       ["Rashmi, Eternities Crafter", 5],
-//       ["Inalla, Archmage Ritualist", 2],
-//       ["Vilis, Broker of Blood", 4],
-//       ["Muldrotha, the Gravetide", 1],
-//       ["Yeva, Nature's Herald", 1],
-//     ]
-//   },
-//   {
-//     "name": "Sebastian Piłat",
-//     "zydelion": 2,
-//     "commander": [
-//       ["Jeleva, Nephalia's Scourge", 6]
-//     ]
-//   },
-//   {
-//     "name": "Eryk Małecki",
-//     "zydelion": 12,
-//     "commander": [
-//       ["Grand Arbiter Augustin IV", 7],
-//       ["Anafenza, the Foremost", 13],
-//       ["Niv-Mizzet, Parun", 2],
-//       ["Gaddock Teeg", 3],
-//       ["Mageta the Lion", 1],
-//       ["Heartless Hidetsugu", 1],
-//       ["Etali, Primal Storm", 2],
-//       ["Sisay, Weatherlight Captain", 2],
-//       ["Adriana, Captain of the Guard", 1],
-//       ["Zur the enchanter", 1],
-//     ]
-//   },
-//   {
-//     "name": "Jakub Grela",
-//     "zydelion": 3,
-//     "commander": [
-//       ["Derevi, Empyrial Tactician", 6],
-//       ["Raff Capashen, Ship's Mage", 2]
-//     ]
-//   },
-//   {
-//     "name": "Krzysztof Guz",
-//     "zydelion": 1,
-//     "commander": [
-//       ["Karlov of the Ghost Council", 3]
-//     ]
-//   },
-//   {
-//     "name": "Jarosław Mroziński",
-//     "zydelion": 5,
-//     "commander": [
-//       ["Brago, King Eternal", 2],
-//       ["Urza, Lord High Artificer", 10]
-//     ]
-//   },
-//   {
-//     "name": "Michał Kowalczyk",
-//     "zydelion": 3,
-//     "commander": [
-//       [
-//         [
-//           ["Thrasios, Triton Hero"],
-//           ["Tymna the Weaver"]
-//         ], 10
-//       ]
-//     ]
-//   },
-//   {
-//     "name": "Dominik Kuszneruk",
-//     "zydelion": 1,
-//     "commander": [
-//       ["Mikaeus, the Unhallowed", 4]
-//     ]
-//   },
-//   {
-//     "name": "Paweł Ostrowski",
-//     "zydelion": 13,
-//     "commander": [
-//       ["Jace, Vryn's Prodigy // Jace, Telepath Unbound", 10],
-//       ["Azusa, Lost but Seeking", 19],
-//       ["Breya, Etherium Shaper", 2],
-//       ["The Gitrog Monster", 1],
-//       ["Alesha, Who Smiles at Death", 2],
-//       ["Jarad, Golgari Lich Lord", 1],
-//       [
-//         [
-//           ["Tana, the Bloodsower"],
-//           ["Tymna the Weaver"]
-//         ], 2
-//       ],
-//       [
-//         [
-//           ["Silas Renn, Seeker Adept"],
-//           ["Akiri, Line-Slinger"]
-//         ], 2
-//       ]
-//     ]
-//   },
-//   {
-//     "name": "Bartosz Jurczyk",
-//     "zydelion": 3,
-//     "commander": [
-//       ["Atraxa, Praetors' Voice", 5],
-//       [
-//         [
-//           ["Silas Renn, Seeker Adept"],
-//           ["Akiri, Line-Slinger"]
-//         ],
-//         1
-//       ],
-//       ["Jace, Vryn's Prodigy // Jace, Telepath Unbound", 1],
-//       ["Grenzo, Dungeon Warden", 5]
-//     ]
-//   },
-//   {
-//     "name": "Dawid Czajkowski",
-//     "zydelion": 2,
-//     "commander": [
-//       ["Jhoira of the Ghitu", 1],
-//       ["Tasigur, the Golden Fang", 1],
-//       ["Lavinia, Azorius Renegade", 1]
-//     ]
-//   },
-//   {
-//     "name": "Bartosz Dekański",
-//     "zydelion": 1,
-//     "commander": [
-//       ["Niv-Mizzet, Parun", 3]
-//     ]
-//   },
-//   {
-//     "name": "Jakub Szyszko",
-//     "zydelion": 1,
-//     "commander": [
-//       ["Thelon of Havenwood", 2]
-//     ]
-//   },
-//   {
-//     "name": "Łukasz Cieniawa",
-//     "zydelion": 1,
-//     "commander": [
-//       ["Inalla, Archmage Ritualist", 1],
-//       ["Feather, the Redeemed", 1]
-//     ]
-//   },
-//   {
-//     "name": "Krzysztof Ciesielka",
-//     "zydelion": 8,
-//     "commander": [
-//       ["Daretti, Scrap Savant", 5],
-//       ["The Ur-Dragon", 1],
-//       ["Kadena, Slinking Sorcerer", 3],
-//       ["Niv-Mizzet Reborn", 4],
-//       ["Xantcha, Sleeper Agent", 1]
-//     ]
-//   },
-//   {
-//     "name": "Rafał Krygier",
-//     "zydelion": 6,
-//     "commander": [
-//       ["Prossh, Skyraider of Kher", 6],
-//       ["Maelstrom Wanderer", 8],
-//       ["Narset, Enlightened Master", 2],
-//       ["Chromium, the Mutable", 1],
-//       ["Golos, Tireless Pilgrim", 2],
-//       ["Zur the Enchanter", 2]
-//     ]
-//   },
-//   {
-//     "name": "Karol Esko",
-//     "zydelion": 9,
-//     "commander": [
-//       ["Aminatou, the Fateshifter", 8],
-//       ["Teysa Karlov", 4],
-//       ["Jalira, Master Polymorphist", 1],
-//       ["Feather, the Redeemed", 5],
-//       ["Elsha of the Infinite", 4],
-//       ["Jeleva, Nephalia's Scourge", 2]
-//     ]
-//   },
-//   {
-//     "name": "Filip Wnukowski",
-//     "zydelion": 1,
-//     "commander": [
-//       ["Firesong and Sunspeaker", 2],
-//       ["The Scarab God", 1]
-//     ]
-//   },
-//   {
-//     "name": "Eliza Kołodziej",
-//     "zydelion": 3,
-//     "commander": [
-//       ["Grand Arbiter Augustin IV", 2],
-//       ["Jeleva, Nephalia's Scourge", 5]
-//     ]
-//   },
-//   {
-//     "name": "Dawid Ciesielski",
-//     "zydelion": 6,
-//     "commander": [
-//       ["Krenko, Tin Street Kingpin", 3],
-//       ["Selvala, Heart of the Wilds", 6],
-//       ["Animar, Soul of Elements", 5],
-//       ["Golos, Tireless Pilgrim", 1],
-//       ["Kenrith, the Returned King", 1],
-//       ["Alesha, Who Smiles at Death", 1],
-//       ["Nekusar, the Mindrazer", 1],
-//       ["Chulane, Teller of Tales", 1]
-//       ["Muldrotha, the Gravetide", 1]
-//     ]
-//   },
-//   {
-//     "name": "Marcin Gański",
-//     "zydelion": 6,
-//     "commander": [
-//       ["Gahiji, Honored One", 5],
-//       ["Jodah, Archmage Eternal", 1],
-//       ["Grumgully, the Generous", 7],
-//     ]
-//   },
-//   {
-//     "name": "Paweł Górecki",
-//     "zydelion": 1,
-//     "commander": [
-//       ["Sidisi, Brood Tyrant", 2]
-//     ]
-//   },
-//   {
-//     "name": "Arkadiusz Podmokły ",
-//     "zydelion": 2,
-//     "commander": [
-//       ["Meren of Clan Nel Toth", 3],
-//       ["Sliver Overlord", 1]
-//     ]
-//   },
-//   {
-//     "name": "Mateusz Pawluk",
-//     "zydelion": 1,
-//     "commander": [
-//       ["Ghired, Conclave Exile", 2]
-//     ]
-//   },
-//   {
-//     "name": "Bartek Rzucidło",
-//     "zydelion": 1,
-//     "commander": [
-//       ["Atla Palani, Nest Tender ", 2],
-//       ["The Scarab God", 1]
-//     ]
-//   },
-//   {
-//     "name": "Artur Sołtan",
-//     "zydelion": 1,
-//     "commander": [
-//       ["Kadena, Slinking Sorcerer ", 1],
-//       ["Yawgmoth, Thran Physician", 1]
-//     ]
-//   }, {
-//     "name": "Michał Ożgo",
-//     "zydelion": 1,
-//     "commander": [
-//       ["Sliver Overlord", 1],
-//       ["Thada Adel, Acquisitor", 1]
-//     ]
-//   }
-// ];
 
 var sortedPlayers = sortPlayers(players); //sortujemy graczy po ilości wygranych zydelionów i commanderów po ilości wygranych gier
 
