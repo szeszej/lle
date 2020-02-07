@@ -1,5 +1,4 @@
-const players = [
-  {
+const players = [{
     "name": "Eryk Małecki",
     "zydelion": 1,
     "commander": [
@@ -22,17 +21,20 @@ const players = [
   },
   {
     "name": "Dawid Ciesielski",
-    "zydelion": 1,
+    "zydelion": 2,
     "commander": [
-      ["Animar, Soul of Elements", 2],
+      ["Animar, Soul of Elements", 4],
       ["Golos, Tireless Pilgrim", 1],
+      ["Tasigur, the Golden Fang", 1],
     ]
   },
   {
     "name": "Karol Esko",
-    "zydelion": 1,
+    "zydelion": 2,
     "commander": [
       ["Aminatou, the Fateshifter", 4],
+      ["Elsha of the Infinite", 4],
+      ["Jalira, Master Polymorphist", 1],
     ]
   },
   {
@@ -44,9 +46,10 @@ const players = [
   },
   {
     "name": "Marcin Gański",
-    "zydelion": 1,
+    "zydelion": 2,
     "commander": [
-      ["Grumgully, the Generous", 2],
+      ["Grumgully, the Generous", 8],
+      ["Yarok, the Desecrated", 2]
     ]
   },
   {
@@ -54,6 +57,21 @@ const players = [
     "zydelion": 1,
     "commander": [
       ["Thada Adel, Acquisitor", 2]
+    ]
+  },
+  {
+    "name": "Bartosz Jurczyk",
+    "zydelion": 1,
+    "commander": [
+      ["Muldrotha, the Gravetide", 4]
+    ]
+  },
+  {
+    "name": "Krzysztof Ciesielka",
+    "zydelion": 1,
+    "commander": [
+      ["Niv-Mizzet Reborn", 1],
+      ["Xantcha, Sleeper Agent", 1],
     ]
   }
 ];
