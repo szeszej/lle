@@ -1,89 +1,85 @@
-const players = [
-  {
-    "name": "Eryk Małecki",
-    "zydelion": 1,
-    "commander": [
-      ["Zur the Enchanter", 1]
-    ]
-  },
-  {
-    "name": "Eliza Kołodziej",
-    "zydelion": 2,
-    "commander": [
-      ["Jeleva, Nephalia's Scourge", 3]
-    ]
-  },
-  {
-    "name": "Waldemar Piekarz",
-    "zydelion": 1,
-    "commander": [
-      ["Chulane, Teller of Tales", 2],
-    ]
-  },
-  {
-    "name": "Dawid Ciesielski",
-    "zydelion": 2,
-    "commander": [
-      ["Animar, Soul of Elements", 4],
-      ["Golos, Tireless Pilgrim", 1],
-      ["Tasigur, the Golden Fang", 1],
-    ]
-  },
-  {
-    "name": "Karol Esko",
-    "zydelion": 4,
-    "commander": [
-      ["Aminatou, the Fateshifter", 6],
-      ["Elsha of the Infinite", 5],
-      ["Jalira, Master Polymorphist", 1],
-      ["Teysa Karlov", 1],
-    ]
-  },
-  {
-    "name": "Mateusz Pawluk",
-    "zydelion": 1,
-    "commander": [
-      ["Tolsimir, Friend to Wolves", 2]
-    ]
-  },
-  {
-    "name": "Marcin Gański",
-    "zydelion": 3,
-    "commander": [
-      ["Grumgully, the Generous", 9],
-      ["Yarok, the Desecrated", 2],
-      ["Mina and Denn, Wildborn", 1],
-    ]
-  },
-  {
-    "name": "Michał Ożgo",
-    "zydelion": 1,
-    "commander": [
-      ["Thada Adel, Acquisitor", 2]
-    ]
-  },
-  {
-    "name": "Bartosz Jurczyk",
-    "zydelion": 1,
-    "commander": [
-      ["Muldrotha, the Gravetide", 4]
-    ]
-  },
-  {
-    "name": "Krzysztof Ciesielka",
-    "zydelion": 1,
-    "commander": [
-      ["Niv-Mizzet Reborn", 1],
-      ["Xantcha, Sleeper Agent", 1],
-    ]
-  },
-  {
-    "name": "Łukasz Próchniak",
-    "zydelion": 1,
-    "commander": [
-      ["Marwyn, the Nurturer", 2]
-    ]
-  }
+const players = [{"name": "Eryk Małecki",
+"zydelion": 1,
+"commander": [
+  ["Zur the Enchanter", 1]
+]
+}, {
+  "name": "Eliza Kołodziej",
+  "zydelion": 2,
+  "commander": [
+    ["Jeleva, Nephalia's Scourge", 3]
+  ]
+}, {
+  "name": "Waldemar Piekarz",
+  "zydelion": 1,
+  "commander": [
+    ["Chulane, Teller of Tales", 2],
+  ]
+}, {
+  "name": "Dawid Ciesielski",
+  "zydelion": 3,
+  "commander": [
+    ["Animar, Soul of Elements", 7],
+    ["Golos, Tireless Pilgrim", 3],
+    ["Tasigur, the Golden Fang", 1],
+  ]
+}, {
+  "name": "Karol Esko",
+  "zydelion": 4,
+  "commander": [
+    ["Aminatou, the Fateshifter", 6],
+    ["Elsha of the Infinite", 5],
+    ["Jalira, Master Polymorphist", 1],
+    ["Teysa Karlov", 1],
+  ]
+}, {
+  "name": "Mateusz Pawluk",
+  "zydelion": 2,
+  "commander": [
+    ["Tolsimir, Friend to Wolves", 3],
+    ["Arahbo, Roar of the World", 1]
+  ]
+}, {
+  "name": "Marcin Gański",
+  "zydelion": 5,
+  "commander": [
+    ["Grumgully, the Generous", 11],
+    ["Yarok, the Desecrated", 4],
+    ["Mina and Denn, Wildborn", 1],
+    [
+      [
+        ["Tymna the Weaver"],
+        ["Ikra Shidiqi, the Usurper"]
+      ], 2
+    ], //podwójny generał
+  ]
+}, {
+  "name": "Michał Ożgo",
+  "zydelion": 1,
+  "commander": [
+    ["Thada Adel, Acquisitor", 2]
+  ]
+}, {
+  "name": "Bartosz Jurczyk",
+  "zydelion": 2,
+  "commander": [
+    ["Muldrotha, the Gravetide", 6],
+    ["K'rrik, Son of Yawgmoth", 3]
+  ]
+}, {
+  "name": "Krzysztof Ciesielka",
+  "zydelion": 1,
+  "commander": [
+    ["Niv-Mizzet Reborn", 1],
+    ["Xantcha, Sleeper Agent", 1]
+  ]
+}, {
+  "name": "Łukasz Próchniak",
+  "zydelion": 1,
+  "commander": [
+    ["Marwyn, the Nurturer", 2]
+  ]
+}
 ];
 
 
