@@ -1,8 +1,10 @@
-const players = [{"name": "Eryk Małecki",
-"zydelion": 1,
-"commander": [
-  ["Zur the Enchanter", 1]
-]
+const players = [{
+  "name": "Eryk Małecki",
+  "zydelion": 2,
+  "commander": [
+    ["Zur the Enchanter", 3],
+    ["Anafenza, the Foremost", 1],
+  ]
 }, {
   "name": "Eliza Kołodziej",
   "zydelion": 2,
@@ -49,7 +51,7 @@ const players = [{"name": "Eryk Małecki",
     [
       [
         ["Tymna the Weaver"],
-        ["Ikra Shidiqi, the Usurper"]
+        ["Ravos, Soultender"]
       ], 2
     ], //podwójny generał
   ]
@@ -68,19 +70,26 @@ const players = [{"name": "Eryk Małecki",
   ]
 }, {
   "name": "Krzysztof Ciesielka",
-  "zydelion": 1,
+  "zydelion": 2,
   "commander": [
-    ["Niv-Mizzet Reborn", 1],
-    ["Xantcha, Sleeper Agent", 1]
+    ["Niv-Mizzet Reborn", 4],
+    ["Xantcha, Sleeper Agent", 1],
+    ["Yuriko, the Tiger's Shadow", 1]
   ]
 }, {
   "name": "Łukasz Próchniak",
+  "zydelion": 2,
+  "commander": [
+    ["Marwyn, the Nurturer", 3],
+    ["Yarok, the Desecrated", 2]
+  ]
+}, {
+  "name": "Jakub Grela",
   "zydelion": 1,
   "commander": [
-    ["Marwyn, the Nurturer", 2]
+    ["Reaper King", 3]
   ]
-}
-];
+}];
 
 
 // const players = [
