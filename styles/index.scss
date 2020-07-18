@@ -104,27 +104,27 @@ body {
 
     .leftsidebar {
       grid-area: sideleft;
-      position: sticky;
-      top: 0;
-      max-height: 1440px; //wysokość tła
-      background-image: url("../resources/images/Sith_001.jpg");
-      background-position: 30% -50px;
-      background-repeat: no-repeat;
+      // position: sticky;
+      // top: 0;
+      // max-height: 1440px; //wysokość tła
+      // background-image: url("../resources/images/Sith_001.jpg");
+      // background-position: 30% -50px;
+      // background-repeat: no-repeat;
       background-color: black;
-      background-origin: border-box;
+      // background-origin: border-box;
       z-index: -1;
     }
 
     .rightsidebar {
       grid-area: sideright;
-      position: sticky;
-      top: 0;
-      max-height: 1440px; //wysokość tła
-      background-image: url("../resources/images/Jedi.jpg");
-      background-position: 70% -50px;
-      background-repeat: no-repeat;
+      // position: sticky;
+      // top: 0;
+      // max-height: 1440px; //wysokość tła
+      // background-image: url("../resources/images/Jedi.jpg");
+      // background-position: 70% -50px;
+      // background-repeat: no-repeat;
       background-color: black;
-      background-origin: border-box;
+      // background-origin: border-box;
       z-index: -1;
     }
     /* poniżej tylko dla strony zasad */

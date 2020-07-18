@@ -11,7 +11,7 @@
   display: flex;
   justify-content: center;
   position: relative;
-  color: #fee12b;
+  color: #6ebfb5;
   height: 60vh;
   min-height: 3.5em;
   font-family: "Pathway Gothic One", sans-serif;
@@ -28,8 +28,8 @@
     right: 5%;
     z-index: 2;
     background-color: black;
-    border: 1px solid #fee12b;
-    color: #fee12b;
+    border: 1px solid #6ebfb5;
+    color: #6ebfb5;
     cursor: pointer; }
 
 .crawl {
@@ -101,10 +101,10 @@
             font-weight: 600;
             font-size: 1.25em;
             text-decoration: none;
-            color: #fee12b; }
+            color: #6ebfb5; }
         .aftercrawl .mySlides .slidecontent .quotebox #tshirttitle {
           font-size: 2em;
-          color: #fee12b; }
+          color: #6ebfb5; }
           .aftercrawl .mySlides .slidecontent .quotebox #tshirttitle span {
             font-weight: 900; }
         .aftercrawl .mySlides .slidecontent .quotebox .quote {
@@ -300,7 +300,7 @@
       margin-left: 1em;
       margin-right: 1em; }
     #decklistbox .buttons .dropdownbutton {
-      background-color: #fee12b;
+      background-color: #6ebfb5;
       color: black;
       padding: 1em;
       font-size: 16px;
@@ -310,7 +310,7 @@
     #decklistbox .buttons .dropdowncontent {
       display: none;
       position: absolute;
-      background-color: #fee12b;
+      background-color: #6ebfb5;
       min-width: 7em;
       box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
       z-index: 1; }
@@ -424,8 +424,8 @@ body {
     position: absolute;
     top: 0;
     border: 16px solid #a8a5a3;
-    border-top: 16px solid #fee12b;
-    border-bottom: 16px solid #fee12b;
+    border-top: 16px solid #6ebfb5;
+    border-bottom: 16px solid #6ebfb5;
     border-radius: 50%;
     width: 60px;
     height: 60px;
@@ -450,7 +450,7 @@ body {
     border-style: solid;
     border-color: transparent yellow transparent transparent; }
   body .cardpreview {
-    color: #fee12b;
+    color: #6ebfb5;
     font-size: 24px;
     background-color: transparent;
     text-align: center; }
@@ -482,31 +482,17 @@ body {
     /* powyżej tylko dla strony zasad */ }
     body .wrappersidebar .leftsidebar {
       grid-area: sideleft;
-      position: sticky;
-      top: 0;
-      max-height: 1440px;
-      background-image: url("../resources/images/Sith_001.jpg");
-      background-position: 30% -50px;
-      background-repeat: no-repeat;
       background-color: black;
-      background-origin: border-box;
       z-index: -1; }
     body .wrappersidebar .rightsidebar {
       grid-area: sideright;
-      position: sticky;
-      top: 0;
-      max-height: 1440px;
-      background-image: url("../resources/images/Jedi.jpg");
-      background-position: 70% -50px;
-      background-repeat: no-repeat;
       background-color: black;
-      background-origin: border-box;
       z-index: -1; }
     body .wrappersidebar .rules {
       width: 90%;
       text-align: justify; }
     body .wrappersidebar hr {
-      border-color: #fee12b;
+      border-color: #6ebfb5;
       width: 90%;
       margin-bottom: 1em;
       margin-top: 1em; }
@@ -559,7 +545,7 @@ body {
       height: 100%; }
   body nav {
     grid-area: menu;
-    background-color: #fee12b;
+    background-color: #6ebfb5;
     text-transform: uppercase;
     display: flex;
     flex-direction: column;
@@ -581,7 +567,7 @@ body {
   body main {
     grid-area: content;
     background-color: black;
-    color: #fee12b;
+    color: #6ebfb5;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -607,11 +593,11 @@ body {
       background-color: black;
       margin: 1em;
       width: 90%;
-      border: solid #fee12b 2px; }
+      border: solid #6ebfb5 2px; }
       body .ranking .rank .number {
         grid-area: number;
         text-align: center;
-        background-color: #fee12b;
+        background-color: #6ebfb5;
         color: black;
         border: 1px solid black;
         display: flex;
@@ -633,7 +619,7 @@ body {
             max-height: 2.5em; }
       body .ranking .rank .collapsible {
         grid-area: expand;
-        background-color: #fee12b;
+        background-color: #6ebfb5;
         border: 0;
         font-size: 25px;
         border: 1px solid black;
@@ -648,7 +634,7 @@ body {
         border: 1px solid black; }
       body .ranking .rank .info {
         grid-area: info;
-        border: solid #fee12b 1px;
+        border: solid #6ebfb5 1px;
         padding-left: 1em;
         display: none;
         flex-direction: column; }
@@ -668,7 +654,7 @@ body {
   body footer {
     grid-area: footer;
     color: black;
-    background-color: #fee12b;
+    background-color: #6ebfb5;
     text-align: center;
     box-sizing: border-box;
     display: flex;
