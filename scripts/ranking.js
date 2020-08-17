@@ -46,11 +46,12 @@ const players = [
   },
   {
     name: "Marcin Gański",
-    zydelion: 5,
+    zydelion: 6,
     commander: [
-      ["Grumgully, the Generous", 11],
+      ["Grumgully, the Generous", 12],
       ["Yarok, the Desecrated", 4],
       ["Mina and Denn, Wildborn", 1],
+["Kenrith, the Returned King", 1],
       [[["Tymna the Weaver"], ["Ravos, Soultender"]], 2], //podwójny generał
     ],
   },
@@ -87,13 +88,21 @@ const players = [
   {
     name: "Jakub Grela",
     zydelion: 1,
-    commander: [["Reaper King", 3]],
+    commander: ["Reaper King", 3]
   },
   {
     name: "Maciej Błaziak",
-    zydelion: 1,
-    commander: [["Aminatou, the Fateshifter", 4]],
+    zydelion: 2,
+    commander: [
+["Aminatou, the Fateshifter", 4],
+["Elenda, the dusk rose", 3],
+],
   },
+{
+    name: "Wojciech Sarnowski",
+    zydelion: 1,
+    commander: ["Golos, Tireless Pilgrim", 4]
+  }
 ];
 
 // const players = [
